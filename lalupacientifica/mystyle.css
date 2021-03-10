@@ -1,85 +1,115 @@
 
 body 
-{   
-    background-image:url("img/fondobeige.png");
+{   background-image:url("img/fondobeige.png");
+    background-position:center;
     background-image:transparent;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-color:rgb(203, 240, 182);
-    background-size: 800px 800px;
+    background-repeat:no-repeat;
+    background-color:#88a550;
+    background-size: 1000px 1200px;
     font-size:100%;
     
 }
 
+.topnav{ 
+    font: message-box;
+    background-color:rgb(170, 204, 21);
+    overflow:hidden;
+    font-size: 50px;
+    padding:25px 20px;
+    text-align: center;
+    color:rgb(231, 33, 33);
+    font-size:25px;
+}
+.topnav a:hover{
+            background-color:rgb(83, 128, 0);
+            color:white;
+}
+.topnav a.active{
+    color: black;
+}
 
-article{
-    font-style: arial, Helvetica, sans-serif, bolder;
-    color:rgba(0,0, 0);
-    text-align:justify;
-    margin:5px;
-    font-size:24px;
+
+
 }
  
-
+div{
+    background-color:;
+}
  img{
-      float:left;
-      height:200px;
+      float:botton;
+      height: 100px;
       width:auto;  
-      border-radius:50px;
+      border-radius:30px;
       
  }
-
-svg{ 
-    color:rgb(131, 5, 131);
-    image-size:1000px;
+.logo{
+    border-image: 5px;
+    border:dimgrey;
+    padding: 3px;
+    float:right top;
 }
 
 
 
 h1 {
-    font-style: Arial, Helvetica, sans-serif;
+    font-family: 'Akaya Telivigala', cursive;
     color:rgb(0, 0, 0);
     text-align:center;
-    background-color:rgb(247, 237, 235);
-    margin-left: 5px;
-    font-size:55px;
+    padding:20px 12px;
+    height: 150px;
+    width: 800px ;
+    background-color:#fbcd4b;
+    border-radius: 30px;
+    font-size:40px;
+
 }
 
 
 p{
-    font-style: Arial, Helvetica, oblique;
+    font-family: 'Akaya Telivigala', cursive;
     text-align:center;
     font-style: oblique;
     font-size: 1.3em;
-    color:rgb(0,0,0);
+    color:rgb(10, 9, 9);
    
 }
 
 
 h2 {
-    font-style:italic;
+    font-family: 'Akaya Telivigala', cursive, italic;
     font-weight: bolder;
     text-align:right;
-    font-size:40px;
+    font-size:25px;
+    padding:10px 5px;
+    background-color:rgb(235, 172, 78); 
 }
 
 h3{
-    font-style:oblique, Arial,Helvetica;
+    font-family: 'Akaya Telivigala', cursive, oblique;
     text-align:justify;
-    font-size:40px;
-    color:rgb(0, 0, 0)
+    font-size:25px;
+    color:rgb(0, 0, 0);
+    padding:10px 30px;
+
+
 }
 h4{
     font-style: normal,fantasy,Arial;
     text-align: justify;
     text-overflow: ellipsis;
-    font-size:45px;
-    color:rgba(153, 35, 84, 0.87);
+    font-size:40px;
+    color:rgba(27, 27, 27, 0.87);
 }
 
-menu{ 
-    font-size: initial;
-    text-align: right;
-    color:rgb(86, 52, 155);
-    font-size:25px;
+
+.columna{
+    font-style: arial, Helvetica, sans-serif, bolder;
+    color:chartreuse;
+    text-align:justify;
+    margin:5px;
+    font-size:24px;
+    background-color: darkgray;
+}
+.fila{ background-color: dimgrey;
+
 }
