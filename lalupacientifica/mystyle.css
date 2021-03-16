@@ -1,27 +1,43 @@
 
-body 
-{   background-image:url("img/fondobeige.png");
+header{ 
+    padding:40px;
+    background-image:url("img/fondosintitulo.jpg");
+    background-repeat: no-repeat;
     background-position:center;
+    background-color:#9BCCFD;
+    background-position:right top;
     background-image:transparent;
-    background-repeat:no-repeat;
-    background-color:#88a550;
-    background-size: 1000px 1200px;
-    font-size:100%;
+    font-family: 'Akaya Telivigala', cursive, bolder;
+    color:black;
+    text-align:left;
+    font-size:30px;
+      
+
+}
+
+
+body 
+{   
+    background-color:white;
+    background-size: 1400px 1500px;
+    border: 5px solid;
+    margin:20px 25px;
     
 }
 
 .topnav{ 
     font: message-box;
-    background-color:rgb(170, 204, 21);
+    background-color:#36D6E7;
     overflow:hidden;
     font-size: 50px;
-    padding:25px 20px;
+    padding:20px 30px;
+    margin:8px;
     text-align: center;
-    color:rgb(231, 33, 33);
-    font-size:25px;
+    color:black;
+    font-size:20px;
 }
 .topnav a:hover{
-            background-color:rgb(83, 128, 0);
+            background-color:#36D6E7;
             color:white;
 }
 .topnav a.active{
@@ -29,41 +45,16 @@ body
 }
 
 
-
-}
  
-div{
-    background-color:;
+.cita{
+    background-color:#3b9af3;
+    border: 7px double #36D6E7;
+    padding:auto;
+    font-family:Arial, Helvetica, sans-serif, cursive;
+    font-size:8px;
 }
- img{
-      float:botton;
-      height: 100px;
-      width:auto;  
-      border-radius:30px;
-      
- }
-.logo{
-    border-image: 5px;
-    border:dimgrey;
-    padding: 3px;
-    float:right top;
-}
-
-
-
-h1 {
-    font-family: 'Akaya Telivigala', cursive;
-    color:rgb(0, 0, 0);
-    text-align:center;
-    padding:20px 12px;
-    height: 150px;
-    width: 800px ;
-    background-color:#fbcd4b;
-    border-radius: 30px;
-    font-size:40px;
-
-}
-
+   
+ 
 
 p{
     font-family: 'Akaya Telivigala', cursive;
@@ -78,10 +69,12 @@ p{
 h2 {
     font-family: 'Akaya Telivigala', cursive, italic;
     font-weight: bolder;
-    text-align:right;
-    font-size:25px;
+    text-align: center;
+    font-size:30px;
     padding:10px 5px;
-    background-color:rgb(235, 172, 78); 
+    background-color:#ab60e4;
+    height:60px;
+    width:800px; 
 }
 
 h3{
@@ -108,8 +101,13 @@ h4{
     text-align:justify;
     margin:5px;
     font-size:24px;
-    background-color: darkgray;
+    background-color:lightgreen;
+    float:right;
 }
-.fila{ background-color: dimgrey;
 
+.Cienciaencasa{
+    padding:14px;
+    background-color:lemonchiffon;
+    border:lightgreen solid 4px;
+ 
 }
