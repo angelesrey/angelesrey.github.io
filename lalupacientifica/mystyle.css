@@ -2,26 +2,29 @@
 header{ 
     padding:40px;
     background-image:url("img/fondosintitulo.jpg");
+    margin:5px 10px;
+    border:4px double darkcyan; 
+    float:none;
     background-repeat: no-repeat;
     background-position:center;
-    background-color:#9BCCFD;
+    background-color:lightskyblue;
     background-position:right top;
     background-image:transparent;
     font-family: 'Akaya Telivigala', cursive, bolder;
-    color:black;
+    color:rgb(0, 0, 0);
     text-align:left;
     font-size:30px;
-      
-
+     
 }
-
 
 body 
 {   
-    background-color:white;
-    background-size: 1400px 1500px;
-    border: 5px solid;
-    margin:20px 25px;
+    background-image: url("img/cerebro.jpg");
+    background-repeat:no-repeat;
+    background-position: center;   
+    background-size: 900px 1000px;
+    border: 4px solid rgb(117, 117, 167);
+    margin:40px 30px;
     
 }
 
@@ -29,12 +32,14 @@ body
     font: message-box;
     background-color:#36D6E7;
     overflow:hidden;
+    text-transform: uppercase;
     font-size: 50px;
     padding:20px 30px;
     margin:8px;
     text-align: center;
-    color:black;
+    color:rgb(139, 236, 74);
     font-size:20px;
+
 }
 .topnav a:hover{
             background-color:#36D6E7;
@@ -48,7 +53,7 @@ body
  
 .cita{
     background-color:#3b9af3;
-    border: 7px double #36D6E7;
+    border: 4px solid #8ae6f0;
     padding:auto;
     font-family:Arial, Helvetica, sans-serif, cursive;
     font-size:8px;
@@ -59,22 +64,24 @@ body
 p{
     font-family: 'Akaya Telivigala', cursive;
     text-align:center;
-    font-style: oblique;
+    font-weight: 50px;
     font-size: 1.3em;
-    color:rgb(10, 9, 9);
+    color:rgb(18, 14, 212);
    
 }
 
 
 h2 {
     font-family: 'Akaya Telivigala', cursive, italic;
-    font-weight: bolder;
     text-align: center;
     font-size:30px;
-    padding:10px 5px;
-    background-color:#ab60e4;
+    padding:8px 4px;
+    background-color:#3b9af3;
     height:60px;
     width:800px; 
+    color:darkblue;
+    font:lighter;
+
 }
 
 h3{
@@ -89,25 +96,32 @@ h3{
 h4{
     font-style: normal,fantasy,Arial;
     text-align: justify;
-    text-overflow: ellipsis;
-    font-size:40px;
-    color:rgba(27, 27, 27, 0.87);
+    font-size:25px;
+    color:rgba(19, 18, 88, 0.87);
 }
 
 
-.columna{
-    font-style: arial, Helvetica, sans-serif, bolder;
-    color:chartreuse;
-    text-align:justify;
-    margin:5px;
-    font-size:24px;
-    background-color:lightgreen;
-    float:right;
-}
+
 
 .Cienciaencasa{
-    padding:14px;
-    background-color:lemonchiffon;
-    border:lightgreen solid 4px;
- 
+    padding:140px;
+    background-color:#9BCCFD;
+    border:#722ea5 solid 4px;
+    font-style:oblique;
+    font-weight: bold;
+    display:inline-block;
+    height: 400px;
+    width:100px;
+    }
+
+footer{
+    padding:fixed;
+    background-color:lightskyblue;
+    font-weight: bold;
+}
+.galeria{
+    background-image:url("img/logoverde.png");
+    padding:40px 30px;
+    margin:50 px   
+    
 }

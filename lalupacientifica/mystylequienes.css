@@ -7,6 +7,6 @@ header{
     background-color: linen;
     background-image:url("img/hoja.jpg")
     padding:30px;
-    padding:fixed;
-   
+    background-attachment:fixed;
+    border: 4px solid orchid;
 }
