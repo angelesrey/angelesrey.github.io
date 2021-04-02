@@ -1,10 +1,17 @@
 
+
+*{ margin:0;
+    padding:0;
+
+}
+
 header{ 
-    padding:40px;
+    width:90%;
+    padding:90px 60px;
     background-image:url("img/fondosintitulo.jpg");
-    margin:5px 10px;
+    margin:auto;
     border:4px double darkcyan; 
-    float:none;
+    position:relative;
     background-repeat: no-repeat;
     background-position:center;
     background-color:lightskyblue;
@@ -19,33 +26,43 @@ header{
 
 body 
 {   
+    background-color:#fff;
     background-image: url("img/cerebro.jpg");
+    position:relative;
     background-repeat:no-repeat;
     background-position: center;  
     background-size: 700px 800px;
-    border: 4px solid rgb(141, 98, 223);
-    margin:20px 30px;
+    border: 4px solid rgb(202, 180, 243);
+    margin:40px 30px;
     }
 
 .topnav{ 
-    font: message-box;
-    background-color:#36D6E7;
+
     overflow:hidden;
-    text-transform: uppercase;
-    font-size: 50px;
-    padding:20px 30px;
-    margin:8px;
+    font:message-box;
+    display:block;
+    border:powderblue 2px;
+    background-color:#11d5eb;
+    overflow:hidden;
+    font-size: 25px;
+    padding:30px;
+    margin:5px;
     text-align: center;
-    color:rgb(139, 236, 74);
-    font-size:20px;
+    text-decoration:none;
+    text-transform:uppercase;
+
+  
+    
 
 }
 .topnav a:hover{
-            background-color:#36D6E7;
-            color:white;
+            background:linen;
+            color: #3b39af3;
+            text-decoration:none;
 }
+
 .topnav a.active{
-    color: black;
+    color:navy;
 }
 
 
@@ -53,13 +70,14 @@ body
 .cita{
     background-color:#3b9af3;
     border: 4px solid #8ae6f0;
-    padding:auto;
+    padding:30px;
     font-family:Arial, Helvetica, sans-serif, cursive;
     font-size:8px;
-}
+    }
    
-#columna{ width: 35%;
-    float:none;
+#columna{ width: 30%;
+    float:right;
+    text-decoration:none;
     
 }
 
@@ -87,7 +105,7 @@ h2 {
 }
 
 h3{
-    font-family: 'Akaya Telivigala', cursive, oblique;
+    font-family: Arial, cursive, oblique;
     text-align:justify;
     font-size:25px;
     color:rgb(0, 0, 0);
@@ -116,12 +134,13 @@ h5 {
     background:none;
     padding:auto;
     margin: 25px 30px;
-    border:indianred double 3px; 
+    border:orange double 3px; 
 }
 .papel{
     padding: auto;
     margin:20px 25px;
     border:lightsalmon dotted 4px;
+    list-style:none;
 }
 
 .Cienciaencasa{
@@ -133,26 +152,45 @@ h5 {
     display:inline-block;
     height: 400px;
     width:100px;
-    }
-    .Galeria{
-        background-color: mistyrose;
-        padding:40px 30px;
-        border:orangered 2px solid;
-        position:relative; 
+    width:70%;
     }
     
-    #formulario{
+    .columna2{
+        margin:150px;
+        width: 30%;
+        padding:20px;
+        margin:30px 0px;
+        background-color:mintcream;
+        float:none;
+        border:lavender solid 2px;
+    }
+    .columna3{ 
+        width: 25%;
+        background-color:lightblue;
+        padding:40px 80px;
+        margin:10px;
+        border:lavander 2px solid;
+        position:relative; 
+        float:left;
+    }
+    
+#formulario{
+        margin:150px 0px;
         text-align: center;
-        background-color: #ceb4e2;
-        margin:auto;
+        background-color:lavenderblush;
         display:inline-block;
         padding: 25px 30px;
-
     }
 
+
 footer{
-    padding:fixed;
+    margin:auto;
+    position:relative;
+    width:90%;
+    padding:30px;
+    margin:9px;
     background-color:lightskyblue;
     font-weight: bold;
+    clear:both;    
 }
 
