@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="galeriacss.css" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="imagen animacion">
+            <div class="numero">1/5</div>
+            <img src="img/101.jpg" width="300px">
+            <div class="titulo">imagen 1</div>
+        </div>
+        <div class="imagen animacion">
+            <div class="numero">2/5</div>
+            <img src="img/4914346.jpg" width="300px">
+            <div class="titulo">imagen 2</div>
+        </div>
+        <div class="imagen animacion">
+            <div class="numero">3/5</div>
+            <img src="img/cerebro.jpg" width="300px">
+            <div class="titulo">imagen 3</div>
+        </div>
+        <div class="imagen animacion">
+            <div class="numero">4/6</div>
+            <img src="img/ciencia.jpg" width="300px">
+            <div class="titulo">imagen 4</div>
+        </div>
+        <div class="imagen animacion">
+            <div class="numero">5/6</div>
+            <img src="img/cienciamatraz.jpg" width="300px">
+            <div class="titulo">imagen 5</div>
+        </div>
+        <div class="imagen animacion">
+            <div class="numero">6/6</div>
+            <img src="img/dandelion-335222_1280.png" width="300px">
+            <div class="titulo">imagen 5</div>
+        </div>
+        <a class="ant" onclick="sumarIndice(-1)">&#10094;</a>
+        <a class="sig" onclick="sumarIndice(1)">&#10095;</a>
+     </div>
+     <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="punto" onclick="seleccionarIndice(1)"></span>
+        <span class="punto" onclick="seleccionarIndice(2)"></span>
+        <span class="punto" onclick="seleccionarIndice(3)"></span>
+        <span class="punto" onclick="seleccionarIndice(4)"></span>
+        <span class="punto" onclick="seleccionarIndice(5)"></span>
+        <span class="punto" onclick="seleccionarIndice(6)"></span>
+    </div>
+     <script src="galeriajs.js"></script>
+</body>
+</html>

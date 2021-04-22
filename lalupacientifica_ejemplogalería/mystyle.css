@@ -1,25 +1,55 @@
-
-
-*{ margin:0;
+*{  
+    box-sizing:border-box;
+    margin:0;
     padding:0;
-
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+
 header{ 
-    width:90%;
-    padding:90px 60px;
-    background-image:url("img/fondosintitulo.jpg");
+    padding:100px 60px;
     margin:auto;
-    border:4px double darkcyan; 
+    border:4px double rgb(184, 228, 186); 
     position:relative;
-    background-repeat: no-repeat;
+    background-image:url("img/ciencias.jpg");
+    background-repeat: repeat;
     background-position:center;
-    background-color:lightskyblue;
-    background-position:right top;
-    background-image:transparent;
+   
+    background-position:auto;
     font-family: 'Akaya Telivigala', cursive, bolder;
-    color:rgb(0, 0, 0);
-    text-align:left;
+    color:rgb(7, 7, 7);
+    text-align:center;
     font-size:30px;
      
 }
@@ -27,12 +57,15 @@ header{
 body 
 {   
     background-color:#fff;
-    background-image: url("img/cerebro.jpg");
+    background-image: url("img/fondosintitulo.jpg");
+    image-rendering:crisp-edges;
     position:relative;
+    bottom:150px;
     background-repeat:no-repeat;
-    background-position: center;  
-    background-size: 700px 800px;
-    border: 4px solid rgb(202, 180, 243);
+    background-position: center;
+    background-size: 500px 500px;
+    border: 4px solid rgb(148, 144, 144);
+    display:inline-block;
     margin:40px 30px;
     
     }
@@ -42,9 +75,9 @@ body
     overflow:hidden;
     font:message-box;
     display:block;
-    border:powderblue 2px;
+    border:rgb(176, 230, 183) 2px;
     color:rgb(0, 0, 0);
-    background-color:#11d5eb;
+    background-color:#79e991;
     overflow:hidden;
     font-size: 25px;
     padding:30px;
@@ -59,7 +92,7 @@ body
 }
 .topnav a:hover{
             background:linen;
-            color: #3b39af3;
+            color: black;
             text-decoration:none;
 }
 
@@ -70,18 +103,17 @@ body
 
  
 .cita{
-    background-color:#3b9af3;
-    border: 4px solid #8ae6f0;
-    padding:30px;
+    background-color:#d4d4d4;
+    text-align:center;
+    border: 4px solid #141414;
+    padding:25px;
     font-family:Arial, Helvetica, sans-serif, cursive;
     font-size:8px;
+
     }
    
-#columna{ width: 30%;
-    float:right;
-    text-decoration:none;
-    
-}
+ 
+
 
 p{
     font-family: 'Arial', cursive;
@@ -95,10 +127,11 @@ p{
 
 h2 {
     font-family: 'Akaya Telivigala', cursive, italic;
-    text-align: center;
+    text-align: right;
     font-size:30px;
-    padding:8px 4px;
-    background-color:#3b9af3;
+    position:relative;
+    left:600px;
+    background-color:#d4d4d4;
     height:60px;
     width:800px; 
     color:rgb(0, 0, 0);
@@ -119,13 +152,15 @@ h4{
     font-style: normal,fantasy,Arial;
     text-align: justify;
     font-size:25px;
-    color:rgba(19, 18, 88, 0.87);
+    color:rgba(34, 34, 36, 0.87);
     margin:10px;
+    position:relative;
+    left:500px;
 }
 h5 {
     font-style:' Akaya Telivigala',italic;
     text-align:justify;
-    color:rgb(231, 78, 129);
+    color:rgb(107, 17, 47);
     font-size:20px;
     width:30%;
     margin:auto;
@@ -144,18 +179,19 @@ h5 {
     margin:20px 25px;
     border:lightsalmon dotted 4px;
     list-style:none;
+    float:right;
 }
 
-.Cienciaencasa{
+.Ciencia{
     padding:140px;
     background-color:#9BCCFD;
-    border:#722ea5 solid 4px;
+    border:#d0aeeb solid 4px;
     font-style:oblique;
     font-weight: bold;
     display:inline-block;
     height: 400px;
-    width:100px;
     width:70%;
+    float:right;
     }
     
     .columna2{
@@ -182,16 +218,18 @@ h5 {
         background-color:lavenderblush;
         display:inline-block;
         padding:25px 30px;
+        position:relative;
+        left:500px;
     }
 
 
 footer{
     margin:auto;
     position:relative;
-    width:90%;
+    width:auto;
     padding:30px;
     margin:9px;
-    background-color:lightskyblue;
+    background-color:#d4d4d4;
     font-weight: bold;
     clear:both;  
   
