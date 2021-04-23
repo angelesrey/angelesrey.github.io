@@ -5,7 +5,7 @@
 }
 
 .row::after {
-    content: "";
+    content:"";
     clear: both;
     display: table;
   }
@@ -34,44 +34,37 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-  }
-  
-
+  } 
 header{ 
-    padding:100px 60px;
+    padding:150px 60px;
     margin:auto;
     border:4px double rgb(184, 228, 186); 
     position:relative;
-    background-image:url("img/ciencias.jpg");
-    background-repeat: repeat;
-    background-position:center;
-   
-    background-position:auto;
+    top:0;
+    background-image:url("img/IMG_20171003_183653812.jpg");
+    
+    background-repeat: no-repeat;
+    background-position:center;   
     font-family: 'Akaya Telivigala', cursive, bolder;
     color:rgb(7, 7, 7);
     text-align:center;
-    font-size:30px;
-     
+    font-size:50px;
+    
 }
-
 body 
 {   
     background-color:#fff;
     background-image: url("img/fondosintitulo.jpg");
-    image-rendering:crisp-edges;
     position:relative;
-    bottom:150px;
+    top:0;
     background-repeat:no-repeat;
     background-position: center;
     background-size: 500px 500px;
     border: 4px solid rgb(148, 144, 144);
     display:inline-block;
     margin:40px 30px;
-    
-    }
-
+}
 .topnav{ 
-
     overflow:hidden;
     font:message-box;
     display:block;
@@ -86,22 +79,15 @@ body
     text-decoration:none;
     text-transform:uppercase;
 
-  
-    
-
 }
 .topnav a:hover{
-            background:linen;
+            background:rgb(34, 178, 235);
             color: black;
             text-decoration:none;
 }
-
 .topnav a.active{
     color:navy;
-}
-
-
- 
+} 
 .cita{
     background-color:#d4d4d4;
     text-align:center;
@@ -109,22 +95,21 @@ body
     padding:25px;
     font-family:Arial, Helvetica, sans-serif, cursive;
     font-size:8px;
-
-    }
-   
- 
-
-
+}
 p{
     font-family: 'Arial', cursive;
     text-align:center;
     font-weight: 50px;
     font-size: 1.3em;
     color:rgb(0, 0, 0);
-   
 }
-
-
+   h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    font-size:30px;
+    position:relative;
+    color:rgb(0, 0, 0);
+}
 h2 {
     font-family: 'Akaya Telivigala', cursive, italic;
     text-align: right;
@@ -138,15 +123,12 @@ h2 {
     font:lighter;
 
 }
-
 h3{
     font-family: Arial, cursive, oblique;
     text-align:justify;
     font-size:25px;
     color:rgb(0, 0, 0);
-    display:35%;
-
-
+    display:33%;
 }
 h4{
     font-style: normal,fantasy,Arial;
@@ -165,6 +147,80 @@ h5 {
     width:30%;
     margin:auto;
 }
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+   
+}
+.imagen{
+    display:none;
+}
+img{
+    vertical-align: middle;
+}
+.contenedor{
+    max-width: 2000px;
+    position:relative;
+    margin:auto;
+    text-align: center;
+    background-color: rgb(64, 139, 71);
+}
+.sig, .ant{
+    cursor:pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.sig{
+    right: 0;
+}
+.ant{
+    left:0;
+}
+.sig:hover, .ant:hover{
+    background-color: rgba(231, 237, 238, 0.8);
+}
+.punto{
+    height: 15px;
+    width:15px;
+    background-color:#bbb;
+    margin:0 2px;
+    display:inline-block;
+    border-radius:50%;
+    transition:background-color 1s ease;
+    cursor:pointer;
+}
+.punto:hover, .activo{
+    background-color: #717171;
+}
+.numero{
+    padding: 8px 12px;
+    position:absolute;
+    top:0;
+    text-align:center;
+    font-size:15px;
+    color:#fff;
+}
+.titulo{
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
 
 .bitacora{ 
     color:rgba(0,0,0);
@@ -172,37 +228,35 @@ h5 {
     background:none;
     padding:auto;
     margin: 25px 30px;
-    border:orange double 3px; 
+    border:rgb(45, 130, 241) double 3px; 
 }
 .papel{
     padding: auto;
     margin:20px 25px;
-    border:lightsalmon dotted 4px;
+    border:rgb(81, 234, 245) dotted 4px;
     list-style:none;
     float:right;
 }
-
 .Ciencia{
     padding:140px;
-    background-color:#9BCCFD;
-    border:#d0aeeb solid 4px;
+    background-color:#5cc6f7;
+    border:#ead6fa solid 4px;
     font-style:oblique;
     font-weight: bold;
     display:inline-block;
     height: 400px;
     width:70%;
     float:right;
-    }
-    
-    .columna2{
+    }    
+.columna2{
         margin:150px;
         width: 30%;
         padding:20px;
         margin:20px 0px;
         float:none;
-        border:lavender solid 2px;
+        border:rgb(182, 182, 245) solid 2px;
     }
-    .columna3{ 
+.columna3{ 
         width: 25%;
         background-color:lightblue;
         padding:40px 80px;
@@ -210,8 +264,7 @@ h5 {
         border:lavander 2px solid;
         position:relative; 
         float:left;
-    }
-    
+    }  
 #formulario{
         margin:150px 0px;
         text-align: center;
@@ -221,8 +274,6 @@ h5 {
         position:relative;
         left:500px;
     }
-
-
 footer{
     margin:auto;
     position:relative;

@@ -17,8 +17,8 @@ function mostrarImagenes (){
     }
     //sí indiceImagen es mayor que el número de imagenes mostramos la última
     if (indiceImagen>=imagenes.length){
-       indiceImagen=imagenes.length-1;
-       //indiceImagen=0;
+       //indiceImagen=imagenes.length-1;
+       indiceImagen=0;
     }
     if (indiceImagen<0){
         indiceImagen=0;
