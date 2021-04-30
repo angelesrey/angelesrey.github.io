@@ -111,13 +111,13 @@ p{
 }
 h2 {
     font-family: 'Akaya Telivigala', cursive, italic;
-    text-align: right;
+    text-align: center;
     font-size:25px;
     position:relative;
-    left:600px;
+    left:80%;
     background-color:rgb(209, 183, 144);
-    height:50px;
-    width:700px; 
+    height:40px;
+    width:600px; 
     color:rgb(0, 0, 0);
     font:lighter;
 
