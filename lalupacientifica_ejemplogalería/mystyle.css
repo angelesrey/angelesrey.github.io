@@ -50,18 +50,18 @@ header{
     font-size:50px;
     
 }
-body 
-{   
-    background-color:#fff;
-    background-image: url("img/fondosintitulo.jpg");
+body { 
+    margin:0;
+    font-size: 15px;
+    background-color:azure;
     position:relative;
     top:0;
     background-repeat:no-repeat;
     background-position: center;
     background-size: 500px 500px;
-    border: 4px solid rgb(148, 144, 144);
+    border: 4px solid rgb(92, 91, 91);
     display:inline-block;
-    margin:40px 30px;
+    margin:0px 0px;
 }
 .topnav{ 
     overflow:hidden;
@@ -88,7 +88,7 @@ body
     color:navy;
 } 
 .cita{
-    background-color:#d4d4d4;
+    background-color:#ebe8e8;
     text-align:center;
     border: 4px solid #141414;
     padding:25px;
@@ -102,7 +102,7 @@ p{
     font-size: 1.3em;
     color:rgb(0, 0, 0);
 }
-   h1 {
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size:50px;
@@ -123,37 +123,29 @@ h2 {
 
 }
 h3{
-    font-family: Arial, cursive, oblique;
-    text-align:justify;
-    font-size:25px;
-    color:rgb(0, 0, 0);
+    font-family: Arial, cursive;
+    text-align:center;
+    font-size:30px;
+    color:black;
     display:33%;
 }
 h4{
     font-style: normal,fantasy,Arial;
     text-align: justify;
-    font-size:20px;
+    font-size:25px;
     color:rgba(16, 16, 17, 0.87);
-    margin:10px;
+    margin:20px;
     position:relative;
     left:500px;
 }
 h5 {
-    font-style:' Akaya Telivigala',italic;
-    text-align:justify;
-    color:rgb(107, 17, 47);
+    font-style:Arial;
+    text-align:center;
+    display:inline-block;
+    color:rgb(112, 54, 179);
     font-size:20px;
     width:30%;
     margin:auto;
-}
-*{
-    box-sizing: border-box;
-}
-body{
-    margin:0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-   
 }
 .imagen{
     display:none;
@@ -162,11 +154,11 @@ img{
     vertical-align: middle;
 }
 .contenedor{
-    max-width: 2000px;
+    max-width: 1000px;
     position:relative;
     margin:auto;
     text-align: center;
-    background-color: rgb(64, 139, 71);
+    background-color: rgb(82, 163, 90);
 }
 .sig, .ant{
     cursor:pointer;
@@ -215,12 +207,12 @@ img{
 .titulo{
     text-align: center;
     color:#fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
     font-size: 25px;
     position:absolute;
     bottom:0;
     width:100%;
 }
-
 .bitacora{ 
     color:rgba(0,0,0);
     font-style: italic;
@@ -232,21 +224,10 @@ img{
 .papel{
     padding: auto;
     margin:20px 25px;
-    border:rgb(81, 234, 245) dotted 4px;
-    list-style:none;
+    border:rgb(4, 187, 200) solid 4px;
     float:right;
 }
-.Ciencia{
-    padding:140px;
-    background-color:#5cc6f7;
-    border:#ead6fa solid 4px;
-    font-style:oblique;
-    font-weight: bold;
-    display:inline-block;
-    height: 400px;
-    width:70%;
-    float:right;
-}    
+
 .columna2{
         margin:150px;
         width: 30%;
@@ -260,18 +241,39 @@ img{
         background-color:lightblue;
         padding:40px 80px;
         margin:10px;
-        border:lavander 2px solid;
+        border:#fff 2px solid;
         position:relative; 
         float:left;
-}  
-#formulario{
-        margin:150px 0px;
-        text-align: center;
-        background-color:lavenderblush;
-        display:inline-block;
-        padding:25px 30px;
-        position:relative;
-        left:500px;
+}
+.contenedor1 {
+            position: relative;
+            left:600px;
+            width: 70%;
+            max-width: 500px;
+        }
+.image {
+            display: block;
+            width: 90%;
+            height: auto;
+        } 
+.overlay {
+            position: absolute;
+            bottom: 0;
+            left:50px;
+            background: rgb(0, 0, 0);
+            background: rgba(144, 216, 238, 0.5); 
+            color: #161616;
+            width: 70%;
+            transition: .5s ease;
+            opacity:0;
+            color: rgb(73, 71, 71);
+            font-size: 20px;
+            padding: 20px;
+            text-align: justify;
+        }
+.contenedor1:hover .overlay {
+            opacity: 1;
+            text-align:justify;
 }
 footer{
     margin:auto;
@@ -282,6 +284,5 @@ footer{
     background-color:#d4d4d4;
     font-weight: bold;
     clear:both;  
-  
 }
 
