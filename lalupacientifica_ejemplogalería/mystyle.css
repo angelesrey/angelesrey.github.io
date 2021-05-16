@@ -36,16 +36,17 @@
     .col-12 {width: 100%;}
 } 
 header{ 
-    padding:150px 60px;
+    padding:130px 110px;
     margin:auto;
-    border:4px double rgb(184, 228, 186); 
+    border:3px double rgb(62, 144, 62); 
     position:relative;
-    top:0;
+    top:0px;
     background-image:url("img/IMG_20171003_183653812.jpg");
+    width:auto;
     background-repeat: no-repeat;
     background-position:center;   
     font-family: 'Akaya Telivigala', cursive, bolder;
-    color:rgb(7, 7, 7);
+    color:rgb(150, 223, 226);
     text-align:center;
     font-size:50px;
     
@@ -53,53 +54,56 @@ header{
 body { 
     margin:0;
     font-size: 15px;
-    background-color:azure;
+    background-color:rgb(242, 246, 246);
     position:relative;
     top:0;
     background-repeat:no-repeat;
     background-position: center;
     background-size: 500px 500px;
-    border: 4px solid rgb(92, 91, 91);
+    border: 2px solid rgb(92, 91, 91);
     display:inline-block;
     margin:0px 0px;
 }
+
 .topnav{ 
     overflow:hidden;
-    font:message-box;
+    background-color:rgb(208, 208, 205);
+    margin:5px 15px;
+    border:rgb(61, 54, 54) solid 1px;
+    border-radius:1px;
     display:block;
-    border:rgb(176, 230, 183) 2px;
-    color:rgb(0, 0, 0);
-    background-color:#79e991;
-    overflow:hidden;
-    font-size: 25px;
-    padding:30px;
-    margin:5px;
-    text-align: center;
+    text-align:center;
+    padding:14px 16px;
     text-decoration:none;
-    text-transform:uppercase;
+    overflow:hidden;
 
+   
+}
+.topnav a {
+    color:black; 
+    text-align:center;
+    text-decoration:none;
+    font-size:25px;
 }
 .topnav a:hover{
-            background:rgb(34, 178, 235);
+            background:rgb(207, 211, 210);
             color: black;
-            text-decoration:none;
 }
 .topnav a.active{
-    color:navy;
+    color:rgb(171, 238, 246);
 } 
 .cita{
     background-color:#ebe8e8;
     text-align:center;
-    border: 4px solid #141414;
+    border: 3px solid #747171;
     padding:25px;
     font-family:Arial, Helvetica, sans-serif, cursive;
     font-size:8px;
 }
 p{
     font-family: 'Arial', cursive;
-    text-align:center;
-    font-weight: 50px;
-    font-size: 1.3em;
+    text-align:justify;
+    font-size: 20px;
     color:rgb(0, 0, 0);
 }
 h1 {
@@ -142,10 +146,37 @@ h5 {
     font-style:Arial;
     text-align:center;
     display:inline-block;
-    color:rgb(112, 54, 179);
-    font-size:20px;
+    color:rgb(10, 4, 17);
+    font-size:25px;
     width:30%;
     margin:auto;
+}
+#huella{
+        position:relative;
+        left:80px;
+        text-align: justify; 
+        color:rgb(31, 31, 32);   
+}
+ol{
+    font-style:Arial;
+    text-align:justify;
+    font-size:20px;
+}
+li{
+    font-style:Arial; 
+    text-align:justify;
+    font-size:20px;
+}
+.terra{
+    position:relative;
+    left:100px;
+    width:50%;
+    transition: transform .3s;
+    margin:30px;
+   
+}
+.terra:hover{
+    transform:scale(1.5);
 }
 .imagen{
     display:none;
@@ -158,7 +189,7 @@ img{
     position:relative;
     margin:auto;
     text-align: center;
-    background-color: rgb(82, 163, 90);
+    background-color: rgb(114, 204, 123);
 }
 .sig, .ant{
     cursor:pointer;
@@ -221,20 +252,28 @@ img{
     margin: 25px 30px;
     border:rgb(45, 130, 241) double 3px; 
 }
-.papel{
-    padding: auto;
-    margin:20px 25px;
-    border:rgb(4, 187, 200) solid 4px;
+#papel{
+    padding:30px 30px;
+    margin:25px 25px;
+    border:rgb(175, 237, 241) solid 2px;
     float:right;
 }
 
+.impap { 
+        position:relative;
+        vertical-align: center;
+        width: 80%;
+        height: auto;
+        padding: 15px 20px;
+    }
 .columna2{
         margin:150px;
         width: 30%;
         padding:20px;
         margin:20px 0px;
         float:none;
-        border:rgb(182, 182, 245) solid 2px;
+        border:green double 8px;
+    
 }
 .columna3{ 
         width: 25%;
@@ -245,6 +284,7 @@ img{
         position:relative; 
         float:left;
 }
+
 .contenedor1 {
             position: relative;
             left:600px;
@@ -283,6 +323,7 @@ footer{
     margin:9px;
     background-color:#d4d4d4;
     font-weight: bold;
+    font-size:35px;
+    text-align:center;
     clear:both;  
 }
-
