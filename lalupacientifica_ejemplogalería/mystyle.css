@@ -105,15 +105,15 @@ p{
     text-align:justify;
     font-size: 20px;
     color:rgb(0, 0, 0);
-    padding:8px;
+    padding:15px;
 }
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size:50px;
     position:relative;
     color:rgb(0, 0, 0);
-    padding:10px;
 }
 h2 {
     font-family: 'Akaya Telivigala', cursive, italic;
@@ -131,10 +131,10 @@ h2 {
 h3{
     font-family: Arial, cursive;
     text-align:center;
-    font-size:25px;
+    font-size:30px;
     color:black;
     display:33%;
-    padding:12px;
+    padding:10px;
 }
 h4{
     font-style: normal,fantasy,Arial;
@@ -154,33 +154,27 @@ h5 {
     width:30%;
     margin:auto;
 }
-#listahuella{
-    position:relative;
-    left:200px;
-    padding:20px;
-    text-align:justify;
-    color:darkblue;
-}
 #huella{
         position:relative;
-        left:80px;
+        left:180px;
         text-align: justify; 
-        color:rgb(31, 31, 32);   
+        color:rgb(31, 31, 32); 
+        padding:20px 30px;  
 }
 .calcu{
-    padding:50px;
+    width:350px;
+    height:auto;
+    padding:10px;
     position:relative;
-    left:500px;
+    left:300px;
+
 }
-ol{
-    font-style:Arial;
-    text-align:justify;
-    font-size:20px;
-}
-li{
+ol,ul{ 
+    padding:20px;
     font-style:Arial; 
     text-align:justify;
-    font-size:20px;
+    font-size:22px;
+    
 }
 .terra{
     position:relative;
@@ -253,11 +247,17 @@ img{
 .titulo{
     text-align: center;
     color:#fff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
+    font-family: Impact,'Arial Narrow Bold', sans-serif, cursive;
     font-size: 25px;
     position:absolute;
     bottom:0;
     width:100%;
+}
+
+.divul{
+    vertical-align:center;
+    width:350px;
+    height:auto;
 }
 .bitacora{ 
     color:rgba(0,0,0);
@@ -310,7 +310,6 @@ img{
             display: block;
             width: 90%;
             height: auto;
-            padding:50px;
         } 
 .overlay {
             position: absolute;
