@@ -151,11 +151,23 @@ h5 {
     width:30%;
     margin:auto;
 }
+#listahuella{
+    position:relative;
+    left:200px;
+    padding:20px;
+    text-align:justify;
+    color:darkblue;
+}
 #huella{
         position:relative;
         left:80px;
         text-align: justify; 
         color:rgb(31, 31, 32);   
+}
+.calcu{
+    padding:50px;
+    position:relative;
+    left:500px;
 }
 ol{
     font-style:Arial;
@@ -295,6 +307,7 @@ img{
             display: block;
             width: 90%;
             height: auto;
+            padding:50px;
         } 
 .overlay {
             position: absolute;
