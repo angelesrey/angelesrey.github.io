@@ -1,0 +1,20 @@
+* {  
+    box-sizing:border-box;
+    margin:0;
+    padding:0; 
+}
+header {
+    padding:10px 5px;
+    background-color: rgb(241, 241, 232);
+}
+body {
+    background-color:rgb(153, 241, 237);
+}
+
+img {
+    border-radius: 5px;
+}
+footer {
+    padding:20px;
+    background-color: olivedrab;
+}
